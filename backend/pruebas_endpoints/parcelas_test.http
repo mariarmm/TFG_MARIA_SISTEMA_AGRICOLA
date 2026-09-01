@@ -1,0 +1,40 @@
+### Prueba para el registro de parcelas
+POST http://localhost:3000/parcelas/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInJvbCI6ImVuY2FyZ2FkbyIsImlhdCI6MTc4MDE0MzU0OCwiZXhwIjoxNzgwMjI5OTQ4fQ.6CZd3bXRreXG8LycfEa2P9c59V-Vfh27X3tsT8EdDHI
+
+{
+  "nombre": "Parcela 3",
+  "hectareas": 10,
+  "vertices": [
+    { "latitud": 37.1800, "longitud": -3.6000 },
+    { "latitud": 37.1810, "longitud": -3.6005 },
+    { "latitud": 37.1815, "longitud": -3.5990 },
+    { "latitud": 37.1805, "longitud": -3.5985 }
+  ]
+}
+
+### Prueba para modificar una parcela
+PATCH http://localhost:3000/parcelas/5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzksInJvbCI6ImFkbWluIiwiaWF0IjoxNzgwMTQzNTI5LCJleHAiOjE3ODAyMjk5Mjl9._iOQF6-FbgW7oTAfqJsVBmrEnzHGS3rnoUe9AprImR8
+
+{
+    "nombre": "Parcela 3",
+    "id_encargado": 28,
+    "latitud": 3,
+    "longitud": 23
+}
+
+### Prueba para eliminar parcelas
+DELETE http://localhost:3000/parcelas/6
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInJvbCI6ImVuY2FyZ2FkbyIsImlhdCI6MTc3OTgxNzE2NywiZXhwIjoxNzc5OTAzNTY3fQ._9txREOEJugT7ehnXePPZdh1n-h0r7GH-Pl-Swx2ifo
+Content-Type: application/json
+
+
+
+### Prueba para obtener las parcelas
+GET http://localhost:3000/parcelas
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzksInJvbCI6ImFkbWluIiwiaWF0IjoxNzc4OTUxMzg1LCJleHAiOjE3NzkwMzc3ODV9._6h-G8QQwbW59KsIb7wkc8sAa9H5fuaUVebANpWOwck
+
+Content-Type: application/json

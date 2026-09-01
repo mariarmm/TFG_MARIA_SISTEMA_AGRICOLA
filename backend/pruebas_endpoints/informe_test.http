@@ -1,0 +1,7 @@
+
+### Prueba para obtener el informe
+# GET http://localhost:3000/informes/pdf?fecha=2026-05-17
+GET http://localhost:3000/informes?fecha=2026-05-18&pdf
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInJvbCI6ImVuY2FyZ2FkbyIsImlhdCI6MTc3OTEwMjQ1NCwiZXhwIjoxNzc5MTg4ODU0fQ.vPutfJSQT0dsNc16SoKxmKbpFkBSftkkHYKuEatMSFk
+
+Content-Type: application/json

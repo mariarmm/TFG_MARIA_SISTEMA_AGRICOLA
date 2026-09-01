@@ -1,0 +1,73 @@
+{
+  "panel_admin": "لوحة الإدارة",
+  "panel_encargado": "لوحة المشرف",
+  "mis_tareas": "مهامي",
+  "cerrar_sesion": "تسجيل الخروج",
+  "idioma": "اللغة",
+  "español": "الإسبانية",
+  "ingles": "الإنجليزية",
+  "rumano": "الرومانية",
+  "arabe": "العربية",
+
+  "tareas": "المهام",
+  "usuarios": "المستخدمون",
+  "mapa": "الخريطة",
+  "parcelas": "القطع",
+  "maquina":"آلة",
+
+
+  "gestionar_tareas": "إدارة المهام",
+
+  "iniciar_jornada": "بدء يوم العمل",
+  "finalizar_jornada": "إنهاء يوم العمل",
+  "jornada_finalizada": "تم إنهاء يوم العمل",
+
+  "fecha_planificada": "التاريخ المخطط",
+  "estado": "الحالة",
+  "trabajador": "العامل",
+
+  "todos": "الكل",
+  "pendiente": "قيد الانتظار",
+  "en_proceso": "قيد التنفيذ",
+  "completada": "مكتملة",
+  "retrasadas": "متأخرات",
+  "completadas": "أكملت",
+  "planificadas": "مخططة",
+  "fecha_finalizacion": "تاريخ الانتهاء",
+  "fecha_desde": "تاريخ من",
+  "fecha_hasta": "تاريخ حتى",
+
+
+  "nueva_tarea": "مهمة جديدة",
+
+  "no_tareas": "لا توجد مهام مسجلة",
+
+  "planificada": "مخططة",
+  "inicio": "البداية",
+  "fin": "النهاية",
+  "parcela": "القطعة",
+
+  "iniciar_tarea": "بدء المهمة",
+  "completar_tarea": "إكمال المهمة",
+
+  "confirmar_inicio": "هل تريد وضع المهمة قيد التنفيذ؟",
+  "confirmar_completar": "هل تريد وضع المهمة كمكتملة؟",
+
+  "cancelar": "إلغاء",
+  "confirmar": "تأكيد",
+  "crear": "إنشاء",
+
+  "nombre": "الاسم",
+  "descripcion": "الوصف",
+  "id_trabajador": "معرف العامل",
+  "id_parcela": "معرف القطعة",
+
+  "faltan_campos": "هناك حقول مطلوبة ناقصة",
+  "error_tareas": "خطأ في تحميل المهام",
+  "error_conexion": "خطأ في الاتصال",
+  "error_crear_tarea": "خطأ في إنشاء المهمة",
+
+  "permiso_gps_denegado": "تم رفض إذن الموقع",
+
+  "informes": "التقارير"
+}

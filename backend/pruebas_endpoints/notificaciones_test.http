@@ -1,0 +1,20 @@
+### Prueba para el registro de notificaciones
+POST http://localhost:3000/notificaciones/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzksInJvbCI6ImFkbWluIiwiaWF0IjoxNzgwMzA5NDc1LCJleHAiOjE3ODAzOTU4NzV9.1Vyuccf-F23_1sJWx_o0NMgIpsLoqzT08PP_LGWUjAw
+
+{
+    "mensaje": "Tienes una nueva tarea.",
+    "id_usuario": 23
+}
+
+###Prueba para obtener las notificaciones de un usuario
+GET http://localhost:3000/notificaciones/23
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjMsInJvbCI6InRyYWJhamFkb3IiLCJpYXQiOjE3ODAzMDk0NTQsImV4cCI6MTc4MDM5NTg1NH0.e7l9w8IV1ojvK_npccpgpB8esuGJdem56UYgsLV25WE
+
+
+###Prueba para obtener marcar como leida una notificacion
+PATCH http://localhost:3000/notificaciones/3/leida
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjMsInJvbCI6InRyYWJhamFkb3IiLCJpYXQiOjE3ODAzMDk0NTQsImV4cCI6MTc4MDM5NTg1NH0.e7l9w8IV1ojvK_npccpgpB8esuGJdem56UYgsLV25WE

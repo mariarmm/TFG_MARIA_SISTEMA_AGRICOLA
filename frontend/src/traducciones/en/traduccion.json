@@ -1,0 +1,74 @@
+{
+  "panel_admin": "Admin Panel",
+  "panel_encargado": "Manager Panel",
+  "mis_tareas": "My tasks",
+  "cerrar_sesion": "Log out",
+  "idioma": "Language",
+  "español": "Spanish",
+  "ingles": "English",
+  "rumano": "Romanian",
+  "arabe": "Arabic",
+
+  "tareas": "Tasks",
+  "usuarios": "Users",
+  "mapa": "Map",
+  "parcelas": "Plots",
+  "maquina": "Machine",
+
+
+  "gestionar_tareas": "Task management",
+
+  "iniciar_jornada": "Start workday",
+  "finalizar_jornada": "End workday",
+  "jornada_finalizada": "Workday finished",
+
+  "fecha_planificada": "Planned date",
+  "estado": "Status",
+  "trabajador": "Worker",
+
+  "todos": "All",
+  "pendiente": "Pending",
+  "en_proceso": "In progress",
+  "completada": "Completed",
+  "retrasadas": "Delayed",
+  "completadas": "Completed",
+  "planificadas": "Planned",
+  "fecha_finalizacion": "End date",
+  "fecha_desde": "Date from",
+  "fecha_hasta": "Date until",  
+
+
+
+  "nueva_tarea": "New task",
+
+  "no_tareas": "No tasks registered",
+
+  "planificada": "Planned",
+  "inicio": "Start",
+  "fin": "End",
+  "parcela": "Plot",
+
+  "iniciar_tarea": "Start task",
+  "completar_tarea": "Complete task",
+
+  "confirmar_inicio": "Do you want to mark the task as in progress?",
+  "confirmar_completar": "Do you want to mark the task as completed?",
+
+  "cancelar": "Cancel",
+  "confirmar": "Confirm",
+  "crear": "Create",
+
+  "nombre": "Name",
+  "descripcion": "Description",
+  "id_trabajador": "Worker ID",
+  "id_parcela": "Plot ID",
+
+  "faltan_campos": "Required fields are missing",
+  "error_tareas": "Error loading tasks",
+  "error_conexion": "Connection error",
+  "error_crear_tarea": "Error creating task",
+
+  "permiso_gps_denegado": "Location permission denied",
+
+  "informes": "Reports"
+}

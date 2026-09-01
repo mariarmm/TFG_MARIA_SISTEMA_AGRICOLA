@@ -1,0 +1,10 @@
+
+
+POST http://localhost:3000/ubicacion/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAsInJvbCI6ImFkbWluIiwiaWF0IjoxNzc3NDc3ODIwLCJleHAiOjE3Nzc1NjQyMjB9.ReaoEt_GBdzJ5K0zqA1_y4mjP9dIDLGPc8kdryrhobs
+
+{
+  "lat": 37.177,
+  "lon": -3.598
+}

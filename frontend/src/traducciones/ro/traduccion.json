@@ -1,0 +1,71 @@
+{
+  "panel_admin": "Panou Admin",
+  "panel_encargado": "Panou Manager",
+  "mis_tareas": "Sarcinile mele",
+  "cerrar_sesion": "Deconectare",
+  "idioma": "Limba",
+  "español": "Spaniol",
+  "ingles": "Englez",
+  "rumano": "Român",
+  "arabe": "Arab",
+
+  "tareas": "Sarcini",
+  "usuarios": "Utilizatori",
+  "mapa": "Hartă",
+  "parcelas": "Parcele",
+  "maquina": "Maşină",
+  
+  "gestionar_tareas": "Gestionarea sarcinilor",
+
+  "iniciar_jornada": "Începe ziua de lucru",
+  "finalizar_jornada": "Termină ziua de lucru",
+  "jornada_finalizada": "Zi de lucru finalizată",
+
+  "fecha_planificada": "Data planificată",
+  "estado": "Stare",
+  "trabajador": "Lucrător",
+
+  "todos": "Toți",
+  "pendiente": "În așteptare",
+  "en_proceso": "În desfășurare",
+  "completada": "Finalizată",
+  "retrasadas": "Întârziat",
+  "completadas": "Finalizat",
+  "planificadas": "Planificat",
+  "fecha_desde": "Data de",
+  "fecha_hasta": "Data pana la",
+
+
+  "nueva_tarea": "Sarcină nouă",
+
+  "no_tareas": "Nu există sarcini înregistrate",
+
+  "planificada": "Planificată",
+  "inicio": "Start",
+  "fin": "Sfârșit",
+  "parcela": "Parcelă",
+
+  "iniciar_tarea": "Începe sarcina",
+  "completar_tarea": "Finalizează sarcina",
+
+  "confirmar_inicio": "Doriți să marcați sarcina ca în desfășurare?",
+  "confirmar_completar": "Doriți să marcați sarcina ca finalizată?",
+
+  "cancelar": "Anulează",
+  "confirmar": "Confirmă",
+  "crear": "Creează",
+
+  "nombre": "Nume",
+  "descripcion": "Descriere",
+  "id_trabajador": "ID lucrător",
+  "id_parcela": "ID parcelă",
+
+  "faltan_campos": "Lipsesc câmpuri obligatorii",
+  "error_tareas": "Eroare la încărcarea sarcinilor",
+  "error_conexion": "Eroare de conexiune",
+  "error_crear_tarea": "Eroare la crearea sarcinii",
+
+  "permiso_gps_denegado": "Permisiunea de locație a fost refuzată",
+
+  "informes": "Rapoarte"
+}

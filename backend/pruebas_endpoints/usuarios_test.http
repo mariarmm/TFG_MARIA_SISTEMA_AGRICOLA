@@ -1,0 +1,64 @@
+
+### Prueba para el registro de usuarios
+POST http://localhost:3000/usuarios/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInJvbCI6ImVuY2FyZ2FkbyIsImlhdCI6MTc3OTQ3MjU4MiwiZXhwIjoxNzc5NTU4OTgyfQ.-WaQn031KTdh7P-qzt9u-W1T9r9btBmLHC09LvtJ-ls
+
+{
+    "nombre": "eltrabajador",
+    "email": "eltrabajador@test.com",
+    "rol": "trabajador",
+    "id_encargado": 12
+}
+
+
+### Prueba para modificar un usuario
+PATCH http://localhost:3000/usuarios/21
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInJvbCI6ImVuY2FyZ2FkbyIsImlhdCI6MTc3OTgxNzE2NywiZXhwIjoxNzc5OTAzNTY3fQ._9txREOEJugT7ehnXePPZdh1n-h0r7GH-Pl-Swx2ifo
+
+{
+    "nombre": "Pablo",
+    "id_encargado": 28
+}
+
+
+
+### Prueba para activar la cuenta
+POST http://localhost:3000/autenticacion/activar-cuenta
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInJvbCI6ImVuY2FyZ2FkbyIsImlhdCI6MTc3OTQ3MjU4MiwiZXhwIjoxNzc5NTU4OTgyfQ.-WaQn031KTdh7P-qzt9u-W1T9r9btBmLHC09LvtJ-ls
+
+{
+    "token": "",
+    "contrasenia": ""
+}
+
+
+
+### Prueba para eliminar usuarios
+DELETE http://localhost:3000/usuarios/29
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAsInJvbCI6ImFkbWluIiwiaWF0IjoxNzc3NDc3ODIwLCJleHAiOjE3Nzc1NjQyMjB9.ReaoEt_GBdzJ5K0zqA1_y4mjP9dIDLGPc8kdryrhobs
+Content-Type: application/json
+
+
+
+
+
+### Prueba de Login
+POST http://localhost:3000/autenticacion/login
+Content-Type: application/json
+
+{
+    "email": "encargado@test.com",
+    "contrasenia": "encargado"
+}
+
+
+### Prueba de Listar trabajadores
+#GET http://localhost:3000/usuarios?rol=trabajador
+ #GET http://localhost:3000/usuarios?rol=encargado
+ GET http://localhost:3000/usuarios?rol=admin
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInJvbCI6ImVuY2FyZ2FkbyIsImlhdCI6MTc3NzQ3Nzg0MCwiZXhwIjoxNzc3NTY0MjQwfQ.5VVomeo2eohkOrXbKsMvH49fDiBgSBoFtPyCVxXWg8A
+Content-Type: application/json
+

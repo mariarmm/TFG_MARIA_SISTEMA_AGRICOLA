@@ -1,0 +1,59 @@
+
+### Prueba para el registro de tareas
+POST http://localhost:3000/tareas/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzksInJvbCI6ImFkbWluIiwiaWF0IjoxNzgwNTY3NjE1LCJleHAiOjE3ODA2NTQwMTV9.726myum7QM1cjmEgBEo5gmqAYZYBy1Z24riAFlWsDz4
+
+{
+    "nombre": "Regar",
+    "fecha_ini": null,
+    "fecha_fin": null,
+    "id_trabajador": 23,
+    "id_parcela": 15,
+    "descripcion": "una tarea muy chula",
+    "estado": "en_proceso",
+    "fecha_planificada": "2026-04-27"
+}
+
+
+### Prueba listado de tareas de un trabajador
+    #si es un trabajador, solo podrá ver sus tareas
+    #si es un encargado, puede ver las tareas de un trabajador a su cargo
+    #si es un admin, puede ver las tareas del trabajador que quiera
+//GET http://localhost:3000/tareas
+//GET http://localhost:3000/tareas?id_trabajador=23
+GET http://localhost:3000/tareas?fecha=2026-06-06
+# GET http://localhost:3000/tareas?estado=tareas_retrasadas
+//GET http://localhost:3000/tareas?estado=en_proceso
+//GET http://localhost:3000/tareas?fecha=2026-04-27&id_trabajador=23&estado=en_proceso
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInJvbCI6ImVuY2FyZ2FkbyIsImlhdCI6MTc4MDczNjA3NiwiZXhwIjoxNzgwODIyNDc2fQ.0OrUQa3GePRnIMKudLzWgtTXhbee5tL5PJYIayEFiMM
+
+Content-Type: application/json
+
+### Prueba para eliminar una tarea 
+DELETE http://localhost:3000/tareas/55
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInJvbCI6ImVuY2FyZ2FkbyIsImlhdCI6MTc3OTIxNTYyOCwiZXhwIjoxNzc5MzAyMDI4fQ.15Lng8HjdkEmaBDFtMIZgMcI2dwVnbGOGQnoNjA1iBU
+
+Content-Type: application/json
+
+
+### Prueba para actualizar el estado de una tarea
+PATCH http://localhost:3000/tareas/55/estado
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInJvbCI6ImVuY2FyZ2FkbyIsImlhdCI6MTc3OTIxNTYyOCwiZXhwIjoxNzc5MzAyMDI4fQ.15Lng8HjdkEmaBDFtMIZgMcI2dwVnbGOGQnoNjA1iBU
+
+{
+    "estado": "en_proceso"
+}
+
+### Prueba para modificar una tarea
+PATCH http://localhost:3000/tareas/47
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzksInJvbCI6ImFkbWluIiwiaWF0IjoxNzc4NjAyOTMxLCJleHAiOjE3Nzg2ODkzMzF9.bRHdxZysHa5aLv7TqLLQkvQkxQVILYQNIXHzqst4Lo8
+
+{
+    "nombre": "Podar olivos",
+    "id_trabajador": 27,
+}
+
+

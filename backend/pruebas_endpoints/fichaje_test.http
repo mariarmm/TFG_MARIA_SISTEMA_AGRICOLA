@@ -1,0 +1,20 @@
+
+### Prueba para el registro de fichaje
+POST http://localhost:3000/fichaje/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjcsInJvbCI6InRyYWJhamFkb3IiLCJpYXQiOjE3Nzc3MDk1MTEsImV4cCI6MTc3Nzc5NTkxMX0.E1wEHTjceiJgxFQBt7xvubXfg0vynl0lG9R1B-0bsoE
+
+### Prueba para finalizar el fichaje
+POST http://localhost:3000/fichaje/finalizar
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjcsInJvbCI6InRyYWJhamFkb3IiLCJpYXQiOjE3Nzc3MDk1MTEsImV4cCI6MTc3Nzc5NTkxMX0.E1wEHTjceiJgxFQBt7xvubXfg0vynl0lG9R1B-0bsoE
+
+
+### Prueba para obtener el fichaje de un trabajador un día concreto
+# GET http://localhost:3000/fichaje
+# GET http://localhost:3000/fichaje?id_trabajador=23&&fecha=2026-05-02
+GET http://localhost:3000/fichaje?id_trabajador=23
+# GET http://localhost:3000/fichaje?fecha=2026-05-02
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAsInJvbCI6ImFkbWluIiwiaWF0IjoxNzc3NzA0OTgxLCJleHAiOjE3Nzc3OTEzODF9.i48b7nfvtqCeEJyLOr4DWuB-SdrNYu1f1d7rDRQVmBM
+

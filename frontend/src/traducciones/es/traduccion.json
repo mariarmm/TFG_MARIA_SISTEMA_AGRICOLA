@@ -1,0 +1,71 @@
+{
+  "panel_admin": "Panel Admin",
+  "panel_encargado": "Panel Encargado",
+  "mis_tareas": "Mis tareas",
+  "cerrar_sesion": "Cerrar sesión",
+  "idioma": "Idioma",
+  "español": "Español",
+  "ingles": "Inglés",
+  "rumano": "Rumano",
+  "arabe": "Árabe",
+
+  "tareas": "Tareas",
+  "usuarios": "Usuarios",
+  "mapa": "Mapa",
+  "parcelas": "Parcelas",
+
+  "gestionar_tareas": "Gestión de tareas",
+
+  "iniciar_jornada": "Iniciar jornada",
+  "finalizar_jornada": "Finalizar jornada",
+  "jornada_finalizada": "Jornada finalizada",
+
+  "fecha_planificada": "Fecha planificada",
+  "estado": "Estado",
+  "trabajador": "Trabajador",
+
+  "todos": "Todos",
+  "pendiente": "Pendiente",
+  "en_proceso": "En proceso",
+  "completada": "Completada",
+  "retrasadas": "Retrasadas",
+  "planificadas": "Planificadas",
+  "completadas": "Completadas",
+  "fecha_desde": "Fecha desde",
+  "fecha_hasta": "Fecha hasta",
+
+  "nueva_tarea": "Nueva tarea",
+
+  "no_tareas": "No hay tareas registradas",
+
+  "planificada": "Planificada",
+  "inicio": "Inicio",
+  "fin": "Fin",
+  "parcela": "Parcela",
+  "maquina": "Máquina",
+
+  "iniciar_tarea": "Iniciar tarea",
+  "completar_tarea": "Completar tarea",
+
+  "confirmar_inicio": "¿Quieres marcar la tarea como en proceso?",
+  "confirmar_completar": "¿Quieres marcar la tarea como completada?",
+
+  "cancelar": "Cancelar",
+  "confirmar": "Confirmar",
+  "crear": "Crear",
+
+  "nombre": "Nombre",
+  "descripcion": "Descripción",
+  "id_trabajador": "ID trabajador",
+  "id_parcela": "ID parcela",
+
+  "faltan_campos": "Faltan campos obligatorios",
+  "error_tareas": "Error al cargar tareas",
+  "error_conexion": "Error de conexión",
+  "error_crear_tarea": "Error al crear tarea",
+
+  "permiso_gps_denegado": "Permiso de ubicación denegado",
+
+  "informes": "Informes"
+
+}

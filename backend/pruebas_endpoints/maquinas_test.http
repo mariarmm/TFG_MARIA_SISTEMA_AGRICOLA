@@ -1,0 +1,22 @@
+### Prueba para el registro de usuarios
+POST http://localhost:3000/maquinas/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzksInJvbCI6ImFkbWluIiwiaWF0IjoxNzgwNTY3NjE1LCJleHAiOjE3ODA2NTQwMTV9.726myum7QM1cjmEgBEo5gmqAYZYBy1Z24riAFlWsDz4
+
+{
+    "nombre": "Tractor 5",
+    "estado": "disponible",
+    "id_encargado": 12
+}
+
+### Prueba para eliminar maquina
+DELETE http://localhost:3000/maquinas/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzksInJvbCI6ImFkbWluIiwiaWF0IjoxNzgwNTY3NjE1LCJleHAiOjE3ODA2NTQwMTV9.726myum7QM1cjmEgBEo5gmqAYZYBy1Z24riAFlWsDz4
+Content-Type: application/json
+
+
+### Prueba listado de maquinas
+GET http://localhost:3000/maquinas?id_encargado=28
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzksInJvbCI6ImFkbWluIiwiaWF0IjoxNzgwNTY3NjE1LCJleHAiOjE3ODA2NTQwMTV9.726myum7QM1cjmEgBEo5gmqAYZYBy1Z24riAFlWsDz4
+
+Content-Type: application/json
