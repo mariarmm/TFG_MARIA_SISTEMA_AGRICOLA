@@ -167,9 +167,16 @@ const Tareas = () => {
 
             // Petición al backend para obtener la sesión activa del trabajador
             const res = await apiFetch("/sesion-trabajo/activa");
-            const data = await manejarRespuesta(res);
 
+            // Si no existe ninguna sesión activa, se actualiza
+            if (res.status === 404) {
+                setSesionActiva(null);
+                return;
+            }
+
+            const data = await manejarRespuesta(res);
             setSesionActiva(data || null);
+            
         } catch (err) {
             console.error("Error al obtener sesión activa:", err);
         }
